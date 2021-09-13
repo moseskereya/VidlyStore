@@ -13,10 +13,10 @@ class Nav extends Component {
                         Vidly
                     </div>
                     <ul>
-                        <Link to="/">
+                        <Link to="/" className="links">
                             <li>Home</li>
                         </Link>
-                        <Link to="/movies">
+                        <Link to="/movies" className="links">
                             <li>Movies</li>
                         </Link>
                     </ul>

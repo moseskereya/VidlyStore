@@ -19,6 +19,13 @@ display: flex;
 nav ul li{
     margin: 0  8px;
 }
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.links:hover{
+    color: orange;
+}
 
 .banner{
     height: 100vh;
