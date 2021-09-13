@@ -1,0 +1,55 @@
+.App{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #3e384b;
+    align-items: center;
+    padding: 15px 0;
+    color: whitesmoke;
+}
+nav ul{
+list-style: none;
+display: flex;
+}
+
+nav ul li{
+    margin: 0  8px;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/src/components/Images/iceroadimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner::before{
+    position: absolute;
+    content: '';
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(45deg, #060507, rgba(255, 255, 255, 0.24));
+}
+.content{
+    z-index: 100;
+    color: whitesmoke;
+}
+
+footer{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
